@@ -1,11 +1,15 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+
 import './App.css';
 
 function App() {
+  const [input, setInput] = useState('');
   return (
     <div className="App">
        <h1>Test!!</h1>
+
+       <input />
+       <button> Send message </button>
     </div>
   );
 }
